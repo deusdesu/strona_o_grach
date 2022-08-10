@@ -1,0 +1,31 @@
+.pole{
+	width: 50px;
+	height: 50px;
+	background-color:#aaa;
+	float: left;
+}
+
+#head{
+	width: 100%;
+	height: 100%;
+	background-color:#32E6E2;
+}
+.tail{
+	width: 100%;
+	height: 100%;
+	background-color:#00918E;
+}
+
+#owoc{
+	width: 100%;
+	height: 100%;
+	
+	
+	background-color:#fa0;	
+}
+#snake_div{
+	display:inline-block;
+	background-color:#aaa;
+}
+
+

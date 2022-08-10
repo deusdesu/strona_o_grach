@@ -1,0 +1,39 @@
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*
+10C4C0
+00B3B0
+*/
+
+.pion{
+	
+	width: 33%;
+	background-color:#222;
+	float:left;
+	margin:auto;
+	margin-left:0.5%;
+}
+.pion:first-child,.pion_maly:first-child{
+	margin-left:0%;
+}
+.pion_maly{
+	padding-bottom:5px;
+	padding-top:5px;
+	width: 16.25%;
+	background-color:#222;
+	float:left;
+	margin:auto;
+	margin-left:0.5%;
+	text-align:center;
+
+}
+.pion_maly p{
+	
+
+	font-size:100%;
+	height:50px;
+
+}
+#r_snake_w,#r_saper_w,#r_sudoku_w{
+	color:#10C4C0;
+}

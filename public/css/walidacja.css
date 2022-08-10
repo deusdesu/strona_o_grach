@@ -1,0 +1,109 @@
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*
+10C4C0
+00B3B0
+*/
+
+.koniec
+{
+	width:300px;
+	background-color:#222;
+	color: #10C4C0;
+	border:2px solid #222;
+	border-radius: 5px;
+	font-size:20px;
+	padding:10px;
+	box-sizing: border-box;
+	letter-spacing:2px;
+	margin-bottom:25px;
+	outline: none;
+}
+.koniec:focus
+{
+	border:2px solid #222;
+	background-color:#303030;
+	
+	color:#00B3B0;
+}
+#od_nowa,#pokaz_rozwiacanie,#sprawdzenie{
+	margin-top:0;
+}
+input[type=button],.col-sm-12 button
+{
+	width:300px !important;
+	background-color:#10C4C0;
+	font-size:20px;
+	color:white;
+	padding: 15px 10px;
+	margin-top:20px;
+	border:none;
+	border-radius:5px;
+	cursor:pointer;
+	out-line: none;
+}
+button:disabled,
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+button:disabled:hover,
+button[disabled]:hover{
+	background-color: #cccccc !important;
+}
+input[type=button]:hover,.col-sm-12 button:hover
+{
+	background-color:#00B3B0;
+}
+input[type=button]:checked,.col-sm-12 button:checked
+{
+	border:none;
+	background-color:#000;
+	
+}
+input[type=button]:focus,.col-sm-12 button:focus
+{
+	box-shadow: 0px 0px 15px 5px rgba(0,179,176,0.88);
+}
+input[type=button]:focus{
+    outline: none;
+}
+#formularz{
+	margin:auto;
+	background-color:#111;
+	width:300px;
+	padding:50px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:100px;
+	box-shadow: 3px 3px 30px 5px rgba(0,179,176,0.88);
+}
+
+#login_walidacja{
+	color:red;
+}
+
+
+#pokaz_mgle{
+	position:fixed;
+	left: 0;
+	top: 0;
+	z-index:101;
+	height:100%;
+	text-align:center;
+}
+button{
+	  background-color: rgba(0, 0, 0, 0);
+	  border: none;
+	  color:white;
+	  
+}
+
+/* stoper */
+#stopper{
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px;
+	text-align:center;
+	height: 50px;
+}

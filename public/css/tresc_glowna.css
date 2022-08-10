@@ -1,0 +1,92 @@
+#tresc_glowna{
+	background: #111;
+	width: 80% !important;
+	display: table-cell;
+}
+#tresc_boczna{
+	background: #222;
+	width: 30%!important;
+	/*min-height: 10px;*/
+	display: table-cell
+}
+#main{
+	padding: 4px;
+	padding-top: 40px;
+	margin:auto;
+
+	width:80%;
+	height:100%;
+}
+.blok_danych{
+	padding:5px;
+	border-bottom: 1px solid #10C4C0;
+	margin-bottom:10px;
+	text-align:center;
+}
+.blok_danych:last-child{
+	margin-bottom:0px;
+	padding-bottom:10px;
+	border-bottom: none;
+}
+.blok_danych a{
+	text-decoration:none;
+	color: #10C4C0;
+
+}
+.blok_danych a:hover{
+	color:#00B3B0;
+}
+.pomoc{
+	min-height:100px
+}
+.img img{
+	max-height: 150px;
+	max-width: 150px;
+	margin:auto;
+}
+.img{
+	display: block;
+	float: left;
+	width:150px;
+}
+sup{
+	color: #10C4C0;
+}
+
+b{
+	color: #10C4C0;
+	text-decoration: bold;
+}
+#stopka{
+	height:40px;
+	background-color:#00B3B0;
+	text-align:center;
+	vertical-align:middle;
+	/*wysrodkowanie tekstu w stopce*/
+	display: flex;
+	align-items: center;
+	text-align:center;
+	justify-content: center;
+}
+p{
+	font-size:130%;
+}
+
+@media screen and (max-width: 1078px) {
+	#stopka{
+		height:80px;
+	}
+	
+}
+
+@media screen and (max-width: 1200px) {
+	#tresc_glowna{
+		width: 100%;
+		display: block;
+	}
+	#tresc_boczna{
+		width: 100%;
+		display: block;
+	}
+		
+}

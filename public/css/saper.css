@@ -1,0 +1,36 @@
+
+
+#pole_sapera{
+	height: 100%;
+	width: 100%;
+	
+	display:inline-block;
+	/*background-color: #aaa;*/
+}
+
+#pole_z_opcjami{
+	height: 100%;
+	width: 200px;
+	float: left;
+	background-color: red;
+}
+ /* -------------kafelki -----------------*/
+.defa1
+{
+		color: #10C4C0;
+		text-align:center;
+		line-height:15px;
+		width:30px;
+		height:30px;
+		background-color:#000;
+		border:1px outset #555;
+		float:left;			
+}
+
+#tu_wstaw_kafelki_sapera{
+	display:inline-block;
+}
+
+
+
+

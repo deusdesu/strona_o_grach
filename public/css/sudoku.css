@@ -1,0 +1,18 @@
+.sudoku{
+	width: 50px!important; 
+	height: 50px!important;
+	text-align:center!important;
+	border: 1px solid #999;
+}
+.sudoku:hover{
+	background-color:#10C4C0!important;
+	
+}
+
+#pole_sudoku input{
+	font-size:30px;
+}
+#pole_sudoku{
+	margin: auto;
+	
+}

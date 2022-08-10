@@ -1,0 +1,69 @@
+/*
+10C4C0
+00B3B0
+*/
+table.darkTable {
+  font-family: "Arial Black", Gadget, sans-serif;
+  border: 2px solid #000000;
+  background-color: #222222;
+  width: 100%;
+ /* height: 200px;*/
+  text-align: center;
+}
+table.darkTable td, table.darkTable th {
+  border: 1px solid #10C4C0;
+  padding: 3px 2px;
+}
+table.darkTable tbody td {
+  font-size: 13px;
+  color: #E6E6E6;
+}
+table.darkTable tr:nth-child(even) {
+  background: #303030;
+}
+table.darkTable thead {
+  background: #000000;
+}
+table.darkTable thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #E6E6E6;
+  text-align: center;
+}
+table.darkTable tfoot td {
+  font-size: 12px;
+}
+
+td input{
+	color:#fff;
+	width:100%;
+	
+	border:none;
+	background-color:#000;
+	
+}
+table td{
+	height:80px;
+}
+table{
+	width:100%;
+}
+table input{
+	height:100%;
+	text-align:center;
+	border:#000;
+}
+span{
+	font-size:85%;
+
+}
+button{
+	width:100%;
+	height:100%;
+}
+button:hover{
+	background-color: #10C4C0;
+}
+input[type="text" i] {
+    padding: 0;
+}
