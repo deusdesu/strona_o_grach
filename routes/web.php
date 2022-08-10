@@ -23,7 +23,7 @@ use App\Http\Controllers\ScoreController;
 
 
 
-Route::post('/wyslij_ankiete', [ShowTestController::class, 'send'])->name('siusiak');
+Route::post('/wyslij_ankiete', [ShowTestController::class, 'send'])->name('wyslij_ankiete');
 
 Route::post('/edycja', [ShowTestController::class, 'send_to_edit'])->name('Form_edycja');
 Route::post('/edycja/{id}', [ShowTestController::class, 'send_to_edit']);

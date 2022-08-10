@@ -44,7 +44,7 @@ if($ankieta->wiek != ''){?>
 <div class="center">
 <div class="blok_danych"><p><b>Tu możesz edytować ankietę!</b></p></div>
             <div class="blok_danych "> 
-            <form action="{{route('siusiak').'/'.$ankieta->id}}" method="POST">@csrf
+            <form action="{{route('wyslij_ankiete').'/'.$ankieta->id}}" method="POST">@csrf
 
                   <div class="form-group row">
                      <label for="inputEmail3" class="col-sm-5 col-form-label">Pseudonim</label>
